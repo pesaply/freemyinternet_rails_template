@@ -1,34 +1,45 @@
-# #FreeMyInternet Template
+# #FreeMyInternet Rails Template
 
 ## About the #FreeMyInternet Template
 
-Your very own blacked out website, ready to download and deploy.
+Your very own blacked out website, ready to download and deploy. Created using Ruby on Rails, deployable with Heroku.
 
-  git clone git@github.com:cykhoo/freemyinternet.git
+## How to Get Your Own Blacked Out Website
 
-  cd freemyinternet
+Clone this git repository
 
-  heroku create
+  	git clone git@github.com:cykhoo/freemyinternet.git
 
-  git push heroku master
+go into the new app directory
 
-Enjoy!
+  	cd freemyinternet
+  	
+create a new app on Heroku
+
+  	heroku create
+  	
+push the app to Heroku
+
+  	git push heroku master
+
+launch your new website
+
+  	heroku open
+
+Enjoy your new pre-blacked out website!
+
+## Example Website
+
+To see an example of a website generated using this repository, please visit [freethepress.herokuapp.com] (http://freethepress.herokuapp.com)
+
+## List your New Website on the Blackout List
+
+A list of blacked out websites may be found on the [FreeMyInternet website] (http://www.freemyinternet.com/participating-partners.html)
+
+Register your website by filling out the form [here] (https://docs.google.com/forms/d/1Z2EOIIcm8wm_21TmcpyBBCvkvOV2_poY96kaC_fc8zY/viewform)
 
 ## Contact
 Comments, patches, Git pull requests and bug reports are welcome.
-
-## Contributing
-Please follow these steps if you want to send a patch or a GitHub pull request:
-
-1. Fork the cykhoo/patentscope repository
-2. Create branch for your feature addition or bug fix
-3. Make sure you add tests for your changes and that they all pass with 'rake test'
-4. Don't change files that you don't own, like the gemspec and version.rb
-5. Commit your changes. Please make sure you use one commit for every change or every fix you make.
-6. Push to the branch
-7. Open an Issue on GitHub referencing your branch and send a pull request
-
-Please do not push to `master` on your fork. Using a feature/bugfix branch will make everyone’s life easier.
 
 ## License
 
